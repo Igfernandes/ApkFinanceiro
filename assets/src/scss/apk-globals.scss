@@ -1,0 +1,38 @@
+// Libary
+
+@import './libary/fontawesome/fontawesome.scss';
+
+@import './libary/bootstrap/bootstrap.scss';
+
+
+// Other Configs
+
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #48bec4 14%,#6979f0 50%);
+    border-radius: 10px;
+    transition: all 1s ease !important;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #c7ceff 14%,#2ec4db 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

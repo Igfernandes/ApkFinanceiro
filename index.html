@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Finanças</title>
+
+    <!-- STYLE LAYOUTS -->
+    <link rel="stylesheet" href="./assets/dist/css/apk.globals.css">
+
+    <!-- SYSTEM SCRIPTS -->
+    <script src="./assets/dist/js/libary/jquery/jquery-3.6.0.min.js"></script>
+
+</head>
+<body class="overflow-hidden">
+
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-primary justify-content-center">
+                <div class="col-12 col-xl-11">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <div class="logotype h1 text-light">
+                                    <i class="fas fa-piggy-bank"></i>
+                                </div>
+                                <nav class="navbar navbar-expand-lg ml-auto w-100 ">
+                                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon text-light"><i class="fas fa-bars"></i></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                      <ul class="navbar-nav mr-auto text-center">
+                                        <li class="nav-item mx-3 mt-1 text-light" data-trade="./includes/include-save.html"><Strong>Cadastro</Strong></li>
+                                        <li class="nav-item mx-3 mt-1 text-light" id="select" data-trade="./includes/include-select.html"><strong>Consulta</strong></li>
+                                      </ul>
+                                    </div>
+                                  </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  
+    <div class="content position-absolute w-100 h-100 " data-content>
+        <iframe src="./includes/include-save.html" width="100%"  height="100%" frameborder="0" data-src="segment"></iframe>
+    </div>
+
+    <!-- ADD LIBARY -->
+    <script src="./assets/dist/js/libary/fenix/fenix.js"></script>
+    
+    <script src="./assets/dist/js/libary/fontawesome/all.min.js"></script>
+    <script src="./assets/dist/js/libary/fontawesome/fontawesome.min.js"></script>
+
+    
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="./assets/dist/js/libary/bootstrap/popper.min.js"></script>
+    <script src="./assets/dist/js/libary/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/dist/js/libary/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

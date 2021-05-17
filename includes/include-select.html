@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info Save</title>
+
+    <!-- STYLE APK -->
+    <link rel="stylesheet" href="../assets/dist/css/apk.globals.css">
+
+    
+    <script src="../assets/dist/js/libary/jquery/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <main class="select">
+        <div class="container-fluid">
+            <div class="row justify-content-center mb-3">
+                <div class="col-12 col-xl-11">
+                    <div class="container">
+                        <div class="row my-5">
+                            <div class="col-12">
+                                <div class="financas_development-box my-4">
+                                    <div class="my-4">
+                                        <h1 class="display-4 text-center text-md-left">Consulta de despesas</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4 my-2  my-md-0">
+                            <div class="col-12">
+                                <div class="financas_development-form">
+                                    <form action="" id="search">
+                                        <div class="row">
+                                            <div class="form-group col-12 col-md-3 my-2  my-md-0">
+                                                <input type="text" class="form-control" name="nickname" placeholder="Apelido">
+                                            </div>
+                                        </div>
+                                        <div class="row  my-4 my-md-3 ">
+                                            <div class="form-group col-12 col-md-2 my-2  my-md-0">
+                                                <select class="form-control" name="year">
+                                                    <option value="">Ano</option>
+                                                    <option>2021</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12 col-md-2 my-2  my-md-0">
+                                                <select class="form-control" name="month">
+                                                    <option value="">Mês</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12 col-md-2 my-2  my-md-0">
+                                                <select class="form-control" name="day" >
+                                                    <option value="">Dia</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12 col-md-6 my-2  my-md-0">
+                                                <select class="form-control" name="type">
+                                                    <option value="">tipo</option>
+                                                    <option value="casa">Casa</option>
+                                                    <option value="escola">Escola</option>
+                                                    <option value="trabalho">Trabalho</option>
+                                                    <option value="namorado(a)">Namorada(o)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row my-2 my-md-0">
+                                            <div class="form-group col-12 col-md-8">
+                                                <input type="text" class="form-control" name="describe" placeholder="Descrição">
+                                            </div>
+                                            <div class="form-group col-9 col-md-3">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                      <div class="input-group-text">R$:</div>
+                                                      <input type="number" class="form-control" name="price" pattern="([0-9]{1,3}).([0-9]{1,3})" placeholder="Valor">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-1 text-center">
+                                                <button class="btn btn-primary" id="submit"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-xl-11 mb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <table class="table">
+                                    <thead class="bg-primary">
+                                      <tr>
+                                        <th scope="col" class="text-light">Data</th>
+                                        <th scope="col" class="text-light">Tipo</th>
+                                        <th scope="col" class="text-light">Descrição</th>
+                                        <th scope="col" class="text-light">Valor</th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- INTRODUZIDO VIA JS -->
+                                    </tbody>
+                                  </table>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="statusGravacao" tabindex="-1" role="dialog" aria-labelledby="statusGravacaoLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title text-success" id="statusGravacaoLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h6></h6>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- SYSTEM SCRIPTS -->
+    <script src="../assets/dist/js/app.js" type="module"></script>
+
+    <!-- FONTAWESOME SCRIPT -->
+    <script src="../assets/dist/js/libary/fontawesome/all.min.js"></script>
+    <script src="../assets/dist/js/libary/fontawesome/fontawesome.min.js"></script>
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="../assets/dist/js/libary/bootstrap/popper.min.js"></script>
+    <script src="../assets/dist/js/libary/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/dist/js/libary/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
