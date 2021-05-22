@@ -31,9 +31,50 @@ O intuito do projeto foi criar um sistema funcional para guardar informações e
 
 ## 📂 ARQUITETURA
 
-| Directório     | 1° Setor       | 2° setor         | 3° setor      | 4° setor                 |
-|                | assets         | dist  ~| src     | css  ~| js    |   ~|  libary ~ modules   | bootstrap  ~ fenix  ~ fontawesome  ~ jquery  ~|  ...
-| src            | includes       |   ...            |               |                          |
+
+###  [ARQUITETURA] - Bit/Git
+
+<table>
+    <thead>
+        <tr>
+            <td>
+                Directório
+            </td>
+            <td>
+                1° Setor
+            </td>
+            <td>
+                2° Setor
+            </td>
+            <td>
+                3° Setor
+            </td>
+            <td>
+                4° Setor
+            </td>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> assets </td>
+            <td> dist  ~| src </td>
+            <td> css  ~| js </td>
+            <td> ... ~|  libary ~ modules </td>
+            <td>  bootstrap  ~ fenix  ~ fontawesome  ~ jquery  ~|  ... </td>
+        </tr>
+        <tr>
+            <td> includes </td>
+            <td> ... </td>
+        </tr>
+    </tbody>
+</table>
+
+
+###  [ARQUITETURA] - Visual
+
+| Directório     | 1° Setor         | 2° setor      | 3° setor                 | 4° setor                   
+| assets         | dist  ~| src     | css  ~| js    | ... ~|  libary ~ modules | bootstrap  ~ fenix  ~ fontawesome  ~ jquery  ~|  ...
+| includes       |   ...            |               |                          |
 
 **Obser: A pasta "src" está guardando todo os arquivos sass**
 **Obser: A pasta a pasta "dist" está guardando o JS editável e o css compilado**
@@ -59,6 +100,63 @@ O intuito do projeto foi criar um sistema funcional para guardar informações e
 ### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS
 
 - A folha de estilo é totalmente do bootstrap e Fontawesome, siga os padrões
+
+
+### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS (Bit/Git)
+
+<table>
+    <thead>
+        <tr>
+            <td>Função</td>
+            <td>Arquivo</td>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> ... </td>
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> Índice </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Funções </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Fontes </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Cores </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Bibliotecas </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Layouts </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Fonts globais </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Keyframes </td>
+            <td> .. </td>
+        </tr>
+        <tr>
+            <td> Adicionais </td>
+            <td> .. </td>
+        </tr>
+    </tbody>
+</table>
+
+
+### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS (Visual)
 
 Abaixo se encontra uma tabela com a indicação de cada arquivo de estilo:
 
@@ -88,6 +186,10 @@ Na função criada de responsividade, existem as seguintes medidas:
 
 ### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS
 
-- 
+- Introduza o método de exportação nos arquivos ".js" e importe dentro do arquivo "app.js";
 
-- Utilize o arquivo main.js para declarar os seus códigos JS.
+- Bibliotecas são aconselháveis a utilização de uma exportação estática. 
+
+- Os códigos seguem modelo cascata, então existe uma dependência entre as ações. 
+
+- Execute comandos dentro do arquivo "app.js"
