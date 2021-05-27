@@ -1,7 +1,7 @@
 # Apk web - Aplicativo Financeiro
 # Desenvolvedor: Igor Fernandes
 
-O intuito do projeto foi criar um sistema funcional para guardar informações e controlar despesas.
+- O intuito do projeto foi criar um sistema funcional para guardar informações e controlar despesas.
 
 
 ## 🔗 Grade de conteúdos:
@@ -81,26 +81,30 @@ O intuito do projeto foi criar um sistema funcional para guardar informações e
 
 
 ### TROCA DINÂMICA  
-
+<pre>
 - O projeto tem uma troca dinâmica utilizando os recursos de "iframe" do html e ações pelo "JS", com a biblioteca "fenix", ainda não oficialmente lançada, mas já que está sendo produzida. Para saber mais, envie um e-mail para companymarketbr@gmail.com
+</pre>
 
 **RESUMO**
+<pre>
 - A biblioteca busca em seus parâmetros a ação do evento clique nos itens que são referência das páginas o valor do atributo "data-src" e introduz como valor do "src" do iframe, que está configurado para alcançar toda página abaixo do cabeçalho. Dessa forma cria-se um esquema de templates sem o php, no entanto, ainda é necessário especificar a chamada dos arquivos na parte interior de cada template. Tendo ciência de que existem formas mais enxutas de fazer, o desenvolvimento mesmo assim foi feito assim para gerar novos desafios. 
-
+</pre>
 
 ## 📂 INSTRUÇÕES
 
 ### [INSTRUÇÕES] - Instalação 
-
+<pre>
 -  O projeto é totalmente dinâmico quanto a sua instalação. Caso voce queira fazer modificações no sass do Bootstrap, irá precisar de um preprocessador pro sass. Nesse projeto foi utilizado o "Ruby".
+</pre>
 
 **Obser: Caso utilize o ruby, o comando para ativar a compilação é ' sass --watch assets/src/scss/apk-globals.scss:assets/dist/css/apk.globals.css '. Verifique a versão do sass e do ruby no arquivo ".config".**
 
 
 ### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS
 
+<pre>
 - A folha de estilo é totalmente do bootstrap e Fontawesome, siga os padrões
-
+</pre>
 
 ### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS (Bit/Git)
 
@@ -185,11 +189,18 @@ Na função criada de responsividade, existem as seguintes medidas:
 
 
 ### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS
-
+<pre>
 - Introduza o método de exportação nos arquivos ".js" e importe dentro do arquivo "app.js";
+</pre>
 
+<pre>
 - Bibliotecas são aconselháveis a utilização de uma exportação estática. 
+</pre>
 
+<pre>
 - Os códigos seguem modelo cascata, então existe uma dependência entre as ações. 
+</pre>
 
+<pre>
 - Execute comandos dentro do arquivo "app.js"
+</pre>
