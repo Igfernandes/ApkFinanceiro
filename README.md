@@ -210,6 +210,7 @@ Abaixo se encontra uma tabela com a indicação de cada arquivo de estilo:
 </table>
 
 
+### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS (Visual)
 
 Na função criada de responsividade, existem as seguintes medidas:
 
