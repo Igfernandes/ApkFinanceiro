@@ -179,6 +179,38 @@ Abaixo se encontra uma tabela com a indicação de cada arquivo de estilo:
 
 **OBS¹: O container principal que engloba o layout respeita a configuração do bootstrap de "col-11" para dispositivos desktop e "col-12" para dispositivos com telas menores do que 1444px.**
 
+
+### [INSTRUÇÕES] - CRIANDO ARQUIVOS - CSS (Bit/Git)
+
+<table>
+    <thead>
+        <tr>
+            <td>Dispositivos</td>
+            <td>Largura</td>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Extra largo (desktop) </td>
+            <td> 1340px </td>
+        </tr>
+        <tr>
+            <td> médio (laptop) </td>
+            <td> 1024px </td>
+        </tr>
+        <tr>
+            <td> pequeno (tablet) </td>
+            <td> 780px </td>
+        </tr>
+        <tr>
+            <td> extra pequeno (mobile) </td>
+            <td> 450px </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 Na função criada de responsividade, existem as seguintes medidas:
 
 | Dispositivo                 | Largura    |
