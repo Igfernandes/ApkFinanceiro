@@ -2,7 +2,11 @@
 # Desenvolvedor: Igor Fernandes
 
 - O intuito do projeto foi criar um sistema funcional para guardar informações e controlar despesas.
+- 
+## Apresentação:
+<img src="./screenshot.jpg" alt="screenshot">
 
+- Link do Vídeo testado a aplicação: https://youtu.be/fXVnw4CjQiA
 
 ## 🔗 Grade de conteúdos:
 
